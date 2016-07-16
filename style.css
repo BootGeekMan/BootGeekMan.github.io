@@ -1,0 +1,277 @@
+/* ------------------------------------- Common -------------------------------- */
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+
+p {
+	font-size: 22px;
+}
+
+ol{
+	font-size: 22px;
+}
+
+li {
+	font-size: 22px;
+}
+
+h2 {
+	Margin-bottom: 15px;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.picture-scaled{
+	transition: transform 0.5s;
+}
+
+.picture-scaled:hover{
+	transform: scale(1.2, 1.2);
+}
+
+.picture-big-scaled{
+	transition: transform 0.5s;
+}
+
+.picture-big-scaled:hover{
+	transform: scale(1.4, 1.4);
+}
+
+/* --------------- Picture small --------------- */
+.picture-small {
+	height: 220px;
+	width: 100%;
+	max-width: 350px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* --------------- Picture medium left --------------- */
+.picture-medium-left {
+	height: 300px;
+	width: 100%;
+	max-width: 450px;
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+	float: left;
+}
+
+/* --------------- Picture medium right --------------- */
+.picture-medium-right {
+	height: 300px;
+	width: 100%;
+	max-width: 450px;
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+	float: right;
+}
+
+/* --------------- Picture medium vertical --------------- */
+.picture-medium-vertical {
+	height: 350px;
+	width: 100%;
+	max-width: 350px;
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --------------- Picture big center --------------- */
+.picture-big-center {
+	max-height: 420px;
+	width: 100%;
+	max-width: 534px;
+	display: inline;
+    margin-left: 20%;
+    margin-right: 30%;
+	float: inherit;
+}
+
+.aboutMe {
+	margin-top: 100px;
+}
+
+/* --------------- Picture link --------------- */
+.picture-link:hover {
+	border: 1px solid #dbdbdb;
+	transition-property: box-shadow;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.6);
+    transition-duration: 0.25s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+/* --------------- Picture movie --------------- */
+.picture-movie {
+	background: url(http://sunnaonline.kz/wp-content/uploads/2015/09/play.png);
+	background-size: 28% 40%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.picture-movie:hover {
+	border: 1px solid #dbdbdb;
+	transition-property: box-shadow;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.6);
+    transition-duration: 0.25s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+/* ------------------------------------- Header -------------------------------- */
+h1 {
+	Margin-Top: 50px;
+}
+
+/*Header images*/
+.header .container-fluid .row div {
+	text-align: center;
+}
+
+/*How To button*/
+.header .container-fluid .btn{
+	text-align: center;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	font-size: 24px;
+}
+
+.header .container-fluid .btn:hover{
+	text-align: center;
+	background-color: white;
+	transition-property: box-shadow;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.6);
+    transition-duration: 0.25s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.header .container-fluid .btn:visited{
+	background-color: white;
+}
+/* ------------------------------------- Main -------------------------------- */
+.ActiveContainer {
+	padding: 100px;
+	height: 250px;
+	text-align: center;
+}
+
+#StartOnlineBtn{
+	text-align: center;
+	margin: 0 30px 0 30px;
+	border: 2px solid black;
+	text-decoration: none;
+	padding: 8px 30px 8px 30px;
+	color: black;
+	background-color: none;
+	border-radius: 5px;
+}
+#StartOnlineBtn:hover {
+  text-decoration: none;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.6);
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+}
+
+#StartOnlineBtn:active {
+  text-decoration: none;
+  border: 2px solid black;
+  box-shadow: 0 1px 15px rgba(0,0,0,0.6);
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+}
+
+#DownloadBtn{
+	text-align: center;
+	margin: 0 30px 0 30px;
+	border: 2px solid black;
+	text-decoration: none;
+	padding: 8px 30px 8px 30px;
+	color: black;
+	background-color: none;
+	border-radius: 5px;
+}
+
+#DownloadBtn:hover {
+  box-shadow: 0 1px 6px rgba(0,0,0,0.6);
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+}
+
+#DownloadBtn:active {
+  border: 2px solid black;
+  box-shadow: 0 1px 15px rgba(0,0,0,0.6);
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+}
+
+/* ------------------------------------- Footer -------------------------------- */
+
+footer {
+	margin: 30px;
+}
+
+footer .container-fluid{
+	border-top: 1px solid #dbdbdb;
+	height: 150px;
+	
+}
+
+/* ------------------------------------- Article -------------------------------- */
+article a {
+	color: #a51e1e;
+	text-decoration: none;
+}
+
+article h1 {
+	margin-bottom: 30px;
+}
+
+#article-header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	display: inline-block;
+	background-color: white;
+	min-height: 100px;
+}
+
+article .container-fluid{
+	border-bottom: 1px solid #dbdbdb;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+article .container{
+	margin-bottom: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+article a:hover {
+	text-decoration: none;
+}
