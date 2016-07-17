@@ -1,7 +1,7 @@
 /* ------------------------------------- Common -------------------------------- */
 a {
 	text-decoration: none;
-	color: black;
+	color: #a51e1e;
 	font-size: 22px;
 }
 
@@ -40,6 +40,17 @@ h2 {
 
 .picture-big-scaled:hover{
 	transform: scale(1.4, 1.4);
+}
+
+.nav-btn-icon{
+	border-style: none;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.nav-btn-icon-lbl {
+	display: block;
+	text-align: center;
 }
 
 /* --------------- Picture small --------------- */
@@ -88,7 +99,7 @@ h2 {
 	max-height: 420px;
 	width: 100%;
 	max-width: 534px;
-	display: inline;
+	display: inline;	
     margin-left: 20%;
     margin-right: 30%;
 	float: inherit;
@@ -166,9 +177,15 @@ h1 {
 	text-align: center;
 }
 
+.minor-active-container{
+	padding-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
 #StartOnlineBtn{
 	text-align: center;
-	margin: 0 30px 0 30px;
+	margin: 1px 30px 1px 30px;
 	border: 2px solid black;
 	text-decoration: none;
 	padding: 8px 30px 8px 30px;
@@ -197,7 +214,7 @@ h1 {
 
 #DownloadBtn{
 	text-align: center;
-	margin: 0 30px 0 30px;
+	margin: 1px 30px 1px 30px;
 	border: 2px solid black;
 	text-decoration: none;
 	padding: 8px 30px 8px 30px;
@@ -229,10 +246,18 @@ footer {
 	margin: 30px;
 }
 
+footer ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+footer li small{
+	font-size: 75%;
+}
+
 footer .container-fluid{
 	border-top: 1px solid #dbdbdb;
 	height: 150px;
-	
 }
 
 /* ------------------------------------- Article -------------------------------- */
@@ -243,6 +268,10 @@ article a {
 
 article h1 {
 	margin-bottom: 30px;
+}
+
+article ul {
+	list-style-type: none;
 }
 
 #article-header{
@@ -270,8 +299,4 @@ article .container{
 	margin-bottom: 25px;
 	padding-left: 5%;
 	padding-right: 5%;
-}
-
-article a:hover {
-	text-decoration: none;
 }
