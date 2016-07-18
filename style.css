@@ -51,6 +51,13 @@ h2 {
 .nav-btn-icon-lbl {
 	display: block;
 	text-align: center;
+	font-size: 22px;
+}
+
+.nav-btn-icon-img {
+	display: block;
+	text-align: center;
+	font-size: 30px;
 }
 
 /* --------------- Picture small --------------- */
@@ -244,6 +251,10 @@ h1 {
 
 footer {
 	margin: 30px;
+}
+
+footer a{
+	font-size: 18px;
 }
 
 footer ul {
