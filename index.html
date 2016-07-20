@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 		<link href='style.css' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="index.js"></script>
 	</head>
 	<body>
 	<!-- Header -->
@@ -20,7 +22,7 @@
 					<img class="picture-small" src="img2.png"/>
 				</div>
 				<div class="col-lg-3 col-sm-6 col-xs-12">
-					<img class="picture-small" src="1_kadr.png"/>
+					<img class="picture-small" src="img3.png"/>
 				</div>
 				<div class="col-lg-3 col-sm-6 col-xs-12">
 					<img class="picture-small" src="1_kadr.png"/>
@@ -28,7 +30,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<a href="#HowTo" class="btn btn-default btn-block">Video Review & How To</a>
+					<input type="button" class="btn btn-default btn-block" onclick="GoHowTo()" value="Video Review & How To"/>
 				</div>
 			</div>
 			<h1 class="text-center">WinLine - Easiest Windows 7,8,10 install USB maker</h1>
@@ -101,13 +103,11 @@
 					</div>	
 				</div>
 				<div class="col-md-2">
-					<h3>
-						<a href="#">
-							<button type="button" class="btn btn-default nav-btn-icon">
-								<span class="glyphicon glyphicon-home nav-btn-icon-img" aria-hidden="true"></span>
-								<span class="nav-btn-icon-lbl">Home</span>
-							</button>
-						</a>
+					<h3>						
+						<button type="button" class="btn btn-default nav-btn-icon" onclick="GoUp()">
+							<span class="glyphicon glyphicon-home nav-btn-icon-img" aria-hidden="true"></span>
+							<span class="nav-btn-icon-lbl">Home</span>
+						</button>					
 					</h3>	
 				</div>
 			</div>
