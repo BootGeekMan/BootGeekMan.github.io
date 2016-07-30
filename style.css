@@ -42,12 +42,6 @@ h2 {
 	transform: scale(1.4, 1.4);
 }
 
-.nav-btn-icon{
-	border-style: none;
-	padding: 10px 10px 10px 10px;
-	text-align: center;
-}
-
 .nav-btn-icon-lbl {
 	display: block;
 	text-align: center;
@@ -58,6 +52,33 @@ h2 {
 	display: block;
 	text-align: center;
 	font-size: 30px;
+}
+
+.btn:focus{
+	outline: none;
+	background-color: white;
+}
+
+.btn:active:focus{
+	outline: none;
+}
+
+.btn:hover{
+	outline: none;
+	background-color: white;
+}
+
+.ActiveContainer {
+	padding: 100px;
+	height: 250px;
+	text-align: center;
+}
+
+.minor-active-container{
+	padding-top: 10px;
+	text-align: right;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 /* --------------- Picture small --------------- */
@@ -174,25 +195,34 @@ h1 {
     transition-delay: initial;
 }
 
+.header .container-fluid .btn:active{
+	background-color: white;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.header .container-fluid .btn:focus{
+	background-color: white;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	outline: none;
+}
+
 .header .container-fluid .btn:visited{
 	background-color: white;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: none;
+	border-left: none;
+	border-right: none;
 }
 /* ------------------------------------- Main -------------------------------- */
-.ActiveContainer {
-	padding: 100px;
-	height: 250px;
-	text-align: center;
-}
-
-.minor-active-container{
-	padding-top: 10px;
-	padding-top: 10px;
-	text-align: center;
-}
-
 #StartOnlineBtn{
 	text-align: center;
-	margin: 1px 30px 1px 30px;
+	margin: 15px 30px 15px 30px;
 	border: 2px solid black;
 	font-size: 22px;
 	text-decoration: none;
@@ -222,7 +252,7 @@ h1 {
 
 #DownloadBtn{
 	text-align: center;
-	margin: 1px 30px 1px 30px;
+	margin: 15px 30px 15px 30px;
 	border: 2px solid black;
 	font-size: 22px;
 	text-decoration: none;
@@ -279,6 +309,10 @@ article a {
 	text-decoration: none;
 }
 
+article a:hover {
+	color: color: #005792;
+}
+
 article h1 {
 	margin-bottom: 30px;
 }
@@ -299,17 +333,6 @@ article .btnBlock #DownloadBtn {
 	margin-top: 25px;
 }
 
-#article-header{
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 100;
-	width: 100%;
-	display: inline-block;
-	background-color: white;
-	min-height: 100px;
-}
-
 article .container-fluid{
 	border-bottom: 1px solid #dbdbdb;
 	border-top: none;
@@ -324,8 +347,76 @@ article .container{
 	padding-left: 5%;
 	padding-right: 5%;
 }
-
+/*------------- article header -----------*/
 article header {
 	background-color: white;
 	z-index: 9999999;
+}
+
+.nav li a {
+	padding: 0;
+	color: black;
+	padding: 15px 0 10px 0;
+	background-color: transparent;
+	text-align: center;
+}
+
+.nav li a:hover{
+	color: white;
+	background-color: transparent;
+}
+
+.nav li a:focus{
+	background-color: transparent;
+}
+
+.nav li {
+	color: black;
+	text-align: center;
+	padding: 0;
+	width: 30%;
+	max-width: 100px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.nav li:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #005792;/*#8f9472  #21004d #005792*/
+}
+
+.nav li button{
+	padding: 15px 0 10px 0;
+	border: none;
+	background-color: transparent;
+	width: 100%;
+}
+
+.nav li button:focus{
+	border: none;
+	outline: none;
+}
+
+.nav li button:active:focus{
+	border: none;
+	outline: none;
+}
+
+header .navbar-brand{
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+header .nav{
+	margin-top: 10px;
+}
+
+footer .nav{
+	margin-top: 10px;
+}
+
+footer .nav li{
+	width: 100%;
 }
